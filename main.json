@@ -1,0 +1,20 @@
+{
+  "Student": {
+    "activity": [
+      "\nHere are the activities: ",
+      "Supermarket",
+      "Cafeteria"
+    ],
+    "budget": {},
+    "weekdays": [
+      "\nPlease select one of this weekdays: ",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ]
+  }
+}
