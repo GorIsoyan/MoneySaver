@@ -92,9 +92,9 @@ def action():
 
 def download_input():
     with open("data_saver.json") as data_file:
-        new_data = json.load(data_file)
-    for key in new_data:
-        print(key, "-", new_data[key])
+        data = json.load(data_file)
+    for i in data['data']:
+        print("activity",'-', i["activity"], ',', "weekday",'-', i["weekdays"],',', "Money",'-', i["money"])
 
 
 def main():
